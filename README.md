@@ -11,7 +11,8 @@ This project uses [Playwright](https://playwright.dev/) for end-to-end (E2E) tes
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone <repo-url>
+   git clone <git clone <repo-url>
+cd angular_e2e_tests>
    cd angular_e2e_tests
    ```
 2. Install dependencies:
