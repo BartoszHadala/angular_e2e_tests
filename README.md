@@ -11,9 +11,8 @@ This project uses [Playwright](https://playwright.dev/) for end-to-end (E2E) tes
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone <git clone https://github.com/BartoszHadala/angular_e2e_tests>
-cd angular_e2e_tests>
-   cd angular_e2e_tests
+   git clone https://github.com/BartoszHadala/angular_e2e_tests
+   cd angular_e2e_tests>cd angular_e2e_tests
    ```
 2. Install dependencies:
    ```sh
@@ -69,7 +68,7 @@ jobs:
 ```
 
 ### Notes
-- Tests are written in JavaScript (CommonJS). For TypeScript, adjust config and file extensions as needed.
+- Tests are written in JavaScript. For TypeScript, adjust config and file extensions as needed.
 - Playwright version is specified in `package.json`.
 - For troubleshooting, see Playwright documentation: https://playwright.dev/docs/intro
 
