@@ -25,9 +25,7 @@ test.describe('Next Steps block interaction', () => {
 
   for (const action of actions) {
     test(`Click '${action.label}' and validate terminal`, async ({ page }) => {
-      // Kliknij bloczek
       await page.getByRole('button', { name: action.label }).click();
-      // Sprawdź, czy w terminalu pojawił się odpowiedni tekst
       await expect(page.getByText(action.expected, { exact: false })).toBeVisible();
     });
   }
